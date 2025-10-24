@@ -1,0 +1,17 @@
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\bin\Debug\net8.0-windows\ActividadEnElAula10.exe
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\bin\Debug\net8.0-windows\ActividadEnElAula10.deps.json
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\bin\Debug\net8.0-windows\ActividadEnElAula10.runtimeconfig.json
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\bin\Debug\net8.0-windows\ActividadEnElAula10.dll
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\bin\Debug\net8.0-windows\ActividadEnElAula10.pdb
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.Form1.resources
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.csproj.GenerateResource.cache
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.AssemblyInfoInputs.cache
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.AssemblyInfo.cs
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.csproj.CoreCompileInputs.cache
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.sourcelink.json
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.dll
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\refint\ActividadEnElAula10.dll
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.pdb
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ActividadEnElAula10.genruntimeconfig.cache
+C:\Facultad\Programación 2\Guias Práctica\Actividad en el Aula 10\tup_prog_2_2025_actividad10\Actividad en el Aula 10_Codigo\ActividadEnElAula10\obj\Debug\net8.0-windows\ref\ActividadEnElAula10.dll

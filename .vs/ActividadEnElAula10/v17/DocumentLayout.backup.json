@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\docs\\resolucionesatendidas.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:docs\\resolucionesatendidas.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\models\\centroatencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:models\\centroatencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\models\\resolucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:models\\resolucion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\docs\\estado.dat||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:docs\\estado.dat||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\docs\\solicitudespendientes.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:docs\\solicitudespendientes.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|c:\\facultad\\programaci\u00F3n 2\\guias pr\u00E1ctica\\actividad en el aula 10\\tup_prog_2_2025_actividad10\\actividad en el aula 10_codigo\\actividadenelaula10\\models\\iexportable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:models\\iexportable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC37F15B-4340-4547-A754-9C4BEB6C0D69}|ActividadEnElAula10.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Estado.dat",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Docs\\Estado.dat",
+              "RelativeDocumentMoniker": "Docs\\Estado.dat",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Docs\\Estado.dat",
+              "RelativeToolTip": "Docs\\Estado.dat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-24T04:49:32.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResolucionesAtendidas.csv",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Docs\\ResolucionesAtendidas.csv",
+              "RelativeDocumentMoniker": "Docs\\ResolucionesAtendidas.csv",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Docs\\ResolucionesAtendidas.csv",
+              "RelativeToolTip": "Docs\\ResolucionesAtendidas.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-10-24T04:49:20.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SolicitudesPendientes.csv",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Docs\\SolicitudesPendientes.csv",
+              "RelativeDocumentMoniker": "Docs\\SolicitudesPendientes.csv",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Docs\\SolicitudesPendientes.csv",
+              "RelativeToolTip": "Docs\\SolicitudesPendientes.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-10-24T04:48:56.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Solicitud.cs",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\Solicitud.cs",
+              "RelativeDocumentMoniker": "Models\\Solicitud.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\Solicitud.cs",
+              "RelativeToolTip": "Models\\Solicitud.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:44:40.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resolucion.cs",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\Resolucion.cs",
+              "RelativeDocumentMoniker": "Models\\Resolucion.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\Resolucion.cs",
+              "RelativeToolTip": "Models\\Resolucion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:44:18.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IExportable.cs",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\IExportable.cs",
+              "RelativeDocumentMoniker": "Models\\IExportable.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\IExportable.cs",
+              "RelativeToolTip": "Models\\IExportable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:43:52.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CentroAtencion.cs",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\CentroAtencion.cs",
+              "RelativeDocumentMoniker": "Models\\CentroAtencion.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Models\\CentroAtencion.cs",
+              "RelativeToolTip": "Models\\CentroAtencion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:42:28.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA1wDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:10:17.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:09:00.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Facultad\\Programaci\u00F3n 2\\Guias Pr\u00E1ctica\\Actividad en el Aula 10\\tup_prog_2_2025_actividad10\\Actividad en el Aula 10_Codigo\\ActividadEnElAula10\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T04:07:55.221Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
