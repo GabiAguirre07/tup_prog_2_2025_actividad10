@@ -14,11 +14,11 @@ namespace ActividadEnElAula10
         protected void VerSolicitudesPendientes()
         {
             lbxVerSolicitudesImportadas.Items.Clear();
-            var nodo = CentroAtencion.GetSolicitudPendiente();
-            while (nodo != null)
+            LinkedListNode<Solicitud> solicitud = CentroAtencion.GetSolicitudPendiente();
+            while (solicitud != null)
             {
-                lbxVerSolicitudesImportadas.Items.Add(nodo.Value);
-                nodo = nodo.Next;
+                lbxVerSolicitudesImportadas.Items.Add(solicitud.Value);
+                solicitud = solicitud.Next;
             }
         }
 
@@ -39,7 +39,7 @@ namespace ActividadEnElAula10
             Solicitud seleccionada = lbxVerSolicitudesImportadas.SelectedItem as Solicitud;
             if (seleccionada != null)
             {
-                lbSolicitudSeleccionada.Text = seleccionada.Motivo;
+                lbSolicitudSeleccionada.Text = seleccionada.ToString();
             }
         }
 
@@ -48,17 +48,20 @@ namespace ActividadEnElAula10
             FileStream fs = null;
             try
             {
-                fs = new FileStream("Estado.dat", FileMode.OpenOrCreate, FileAccess.Read);
-#pragma warning disable SYSLIB0011 // El tipo o el miembro están obsoletos
-                BinaryFormatter bf = new BinaryFormatter();
+                    fs = new FileStream("Estado.bin", FileMode.OpenOrCreate, FileAccess.Read);
+#pragma warning disable SYSLIB0011
+                    BinaryFormatter bf = new BinaryFormatter();
 #pragma warning restore SYSLIB0011
-                this.CentroAtencion = (CentroAtencion)bf.Deserialize(fs);
+                    CentroAtencion = (CentroAtencion)bf.Deserialize(fs);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Error al recuperar el estado del sistema", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al recuperar el estado del sistema: {ex.Message}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally { if (fs != null) fs.Close(); }
+            finally
+            {
+                if (fs != null) fs.Close();
+            }
             VerSolicitudesPendientes();
             VerSolicitudesAAtender();
             VerHistorialResoluciones();
@@ -66,7 +69,7 @@ namespace ActividadEnElAula10
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            string path = Path.Combine(Application.StartupPath, "Estado.dat");
+            string path = Path.Combine(Application.StartupPath, "Estado.bin");
             FileStream fs = null;
             try
             {
@@ -76,11 +79,10 @@ namespace ActividadEnElAula10
 #pragma warning restore SYSLIB0011
                 bf.Serialize(fs, CentroAtencion);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Error al persistir el estado del sistema", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al persistir el estado del sistema: {ex.Message}","ERROR",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-
             finally
             {
                 if (fs != null) fs.Close();
@@ -92,24 +94,24 @@ namespace ActividadEnElAula10
             opfd.Filter = "Archivos .csv|*.csv";
             if (opfd.ShowDialog() == DialogResult.OK)
             {
-                string path = opfd.FileName;
                 FileStream fs = null;
+                string path = opfd.FileName;
                 try
                 {
                     fs = new FileStream(path, FileMode.Open, FileAccess.Read);
                     CentroAtencion.ImportarCSVSolicitudesEntrantes(fs);
-                    MessageBox.Show("Archivo importado exitosamente");
+                    MessageBox.Show("Archivo importado con éxito");
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Error al importar el archivo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Error al importar las solicitudes: {ex.Message}","ERROR",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 }
                 finally
                 {
                     if (fs != null) fs.Close();
                 }
-                VerSolicitudesPendientes();
             }
+            VerSolicitudesPendientes();
         }
 
         private void btnConfirmarAtencion_Click(object sender, EventArgs e)
@@ -118,12 +120,12 @@ namespace ActividadEnElAula10
             if (seleccionada != null)
             {
                 CentroAtencion.Atender(seleccionada);
-                VerSolicitudesAAtender();
                 lbxVerSolicitudesImportadas.Items.Remove(seleccionada);
+                VerSolicitudesAAtender();
             }
             else
             {
-                MessageBox.Show("Debe seleccionar una solicitud pendiente", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error al atender la solicitud especificada", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -132,8 +134,8 @@ namespace ActividadEnElAula10
             Solicitud resuelta = CentroAtencion.ResolverSolicitudEnEspera();
             if (resuelta != null)
             {
+                lbxColaSolicitudesAAtender.Items.Remove(resuelta.ToString());//Elimino la solicitud de la cola de atención
                 VerHistorialResoluciones();
-                lbxColaSolicitudesAAtender.Items.Remove(resuelta.ToString());
             }
             else
             {
@@ -152,17 +154,18 @@ namespace ActividadEnElAula10
                 {
                     fs = new FileStream(path, FileMode.Create, FileAccess.Write);
                     CentroAtencion.ExportarCSVHistorialResoluciones(fs);
-                    MessageBox.Show("Resoluciones exportadas exitosamente");
+                    MessageBox.Show("Solicitudes exportadas con éxito");
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Error al exportar las resoluciones", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Error al exportar las solicitudes: {ex.Message}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
                     if (fs != null) fs.Close();
                 }
             }
+
         }
     }
 }

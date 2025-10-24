@@ -9,25 +9,25 @@ namespace ActividadEnElAula10.Models
     [Serializable]
     public class Resolucion : IExportable
     {
-        public Solicitud Solicitud { get; set; }
-        public string Descripcion { get; set; }
-        public Resolucion(string Descripcion, Solicitud Solicitud)
+       public Solicitud Solicitud { get; set; }
+       public string Descripcion { get; set; }
+       
+        public Resolucion(string descripcion,Solicitud solicitud)
         {
-            this.Descripcion = Descripcion;
-            this.Solicitud = Solicitud;
+            Descripcion = descripcion;
+            Solicitud = solicitud;
         }
         public string Exportar()
         {
-            return $"{Descripcion};{Solicitud.Numero};{Solicitud.Exportar()}";
+            return $"{Descripcion};{Solicitud.Exportar()}";
         }
-
         public void Importar(string datos)
         {
 
         }
         public override string ToString()
         {
-            return $"{Solicitud.Numero}({Descripcion.Substring(0, Math.Min(Descripcion.Length, 20))})";
+            return $"{Solicitud.Numero}({Descripcion.Substring(0,Math.Min(Descripcion.Length,20))})";
         }
     }
 

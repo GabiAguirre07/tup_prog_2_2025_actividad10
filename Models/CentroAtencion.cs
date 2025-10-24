@@ -9,18 +9,18 @@ namespace ActividadEnElAula10.Models
     [Serializable]
     public class CentroAtencion
     {
-        LinkedList<Solicitud> SolicitudesEntrantes = new LinkedList<Solicitud>();
-        Queue<Solicitud> colaDeAtencion = new Queue<Solicitud>();
-        Stack<Resolucion> pilaHistorica = new Stack<Resolucion>();
+        private LinkedList<Solicitud> solicitudesPendientes = new LinkedList<Solicitud>();
+        private Queue<Solicitud> colaDeAtencion = new Queue<Solicitud>();
+        private Stack<Resolucion> pilaHistorica = new Stack<Resolucion>();
 
         public void ImportarCSVSolicitudesEntrantes(FileStream fs)
         {
             StreamReader sr = new StreamReader(fs);
             sr.ReadLine();
-            while (!sr.EndOfStream)
+            while(!sr.EndOfStream)
             {
-                Solicitud solicitud = new Solicitud();//Creamos una nueva solicitud por cada linea del archivo
                 string linea = sr.ReadLine();
+                Solicitud solicitud = new Solicitud();
                 solicitud.Importar(linea);
                 AgregarSolicitudSiNoExiste(solicitud);
             }
@@ -29,8 +29,8 @@ namespace ActividadEnElAula10.Models
         public void ExportarCSVHistorialResoluciones(FileStream fs)
         {
             StreamWriter sw = new StreamWriter(fs);
-            sw.WriteLine("Descripción Resolución; Número de Solicitud; Descripción de Solicitud");
-            foreach (Resolucion resolucion in pilaHistorica)
+            sw.WriteLine("Descripción Resolución; Número de Solicitud; Descripción Solicitud");
+            foreach(Resolucion resolucion in pilaHistorica)
             {
                 sw.WriteLine(resolucion.Exportar());
             }
@@ -38,18 +38,17 @@ namespace ActividadEnElAula10.Models
         }
         public LinkedListNode<Solicitud> GetSolicitudPendiente()
         {
-            if (SolicitudesEntrantes.Count > 0)
-                return SolicitudesEntrantes.First;
+            if (solicitudesPendientes.Count > 0)
+            {
+            return solicitudesPendientes.First;
+            }
             return null;
         }
         public void Atender(Solicitud solicitud)
         {
-            LinkedListNode<Solicitud> encontrada = SolicitudesEntrantes.Find(solicitud);
-            if (encontrada != null)//Si encontró la solicitud la elimina de la lista enlazada(pendientes) y la agrega a la cola de atención(Queue)
-            {
-                SolicitudesEntrantes.Remove(solicitud);//Elimina
-                colaDeAtencion.Enqueue(solicitud);//Agrega
-            }
+            LinkedListNode<Solicitud> encontrada = solicitudesPendientes.Find(solicitud);
+            solicitudesPendientes.Remove(solicitud);
+            colaDeAtencion.Enqueue(solicitud);
         }
         public string[] VerDescripcionColaAtencion()
         {
@@ -59,35 +58,33 @@ namespace ActividadEnElAula10.Models
             {
                 descripciones[n++] = solicitud.ToString();
             }
-
             return descripciones;
+        }
+        public Solicitud ResolverSolicitudEnEspera()//Es de tipo Solicitud ya que necesito retornarla para poder eliminarla de la lista de solicitudes en cola de atención.
+        {
+            if (colaDeAtencion.Count > 0)
+            {
+                Solicitud resuelta = colaDeAtencion.Dequeue();//se resuelve la solicitud mas antigua en la cola de atención.
+                string Descripcion = "Solicitud Atendida!!, lo esperamos nuevamente con ansias!";
+                Resolucion resolucion = new Resolucion(Descripcion, resuelta);
+                pilaHistorica.Push(resolucion);
+                return resuelta;
+            }
+            return null;
         }
         public string[] VerDescripcionPilaHistorica()
         {
             string[] descripciones = new string[pilaHistorica.Count];
             int n = 0;
-            foreach (Resolucion resolucion in pilaHistorica)
+            foreach(Resolucion resolucion in pilaHistorica)
             {
                 descripciones[n++] = resolucion.ToString();
             }
-
             return descripciones;
-        }
-        public Solicitud ResolverSolicitudEnEspera()
-        {
-            if (colaDeAtencion.Count > 0)
-            {
-                Solicitud solicitud = colaDeAtencion.Dequeue();// Se resuelve la solicitud mas antigua en la cola de atención
-                string Descripcion = "Solicitud Atendida!! vuelva pronto, lo esperamos con ansias!!!!";
-                Resolucion resolucion = new Resolucion(Descripcion, solicitud);
-                pilaHistorica.Push(resolucion);//Registramos la resolución en la pila
-                return solicitud;
-            }
-            return null;
         }
         protected bool AgregarSolicitudSiNoExiste(Solicitud nueva)
         {
-            foreach (Solicitud existente in SolicitudesEntrantes)
+            foreach (Solicitud existente in solicitudesPendientes)
             {
                 if (existente.Numero == nueva.Numero)
                 {
@@ -112,7 +109,7 @@ namespace ActividadEnElAula10.Models
                 }
             }
 
-            SolicitudesEntrantes.AddLast(nueva);
+            solicitudesPendientes.AddLast(nueva);
             return true;
         }
     }

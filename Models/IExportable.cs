@@ -9,6 +9,6 @@ namespace ActividadEnElAula10.Models
     public interface IExportable
     {
         public string Exportar();
-        public void Importar(string datos);
+       public void Importar(string datos);
     }
 }
